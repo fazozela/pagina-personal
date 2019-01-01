@@ -1,0 +1,185 @@
+body{
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+}
+
+.hero h1{
+  text-transform: capitalize;
+  letter-spacing: -.2px;
+  font-size: 40px;
+  line-height: 1.5em;
+  color: white;
+  margin-left: 20px; 
+  margin-right: 360px;
+}
+
+.hero h1 strong{
+  color: #77FF00;
+}
+
+.hero img{
+  width: 300px;
+  height: 300px;
+}
+
+.hero{
+  display: flex;
+  height: 300px;
+  /*background-image: url("fazo.jpg");*/
+  background-color: #1b2127;
+  background-size: 400px 400px;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  align-items: center;
+  justify-content: center; 
+}
+
+.project{
+  width: 900px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: white; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+
+.project-details{
+  width: 500px;
+  
+}
+
+.project-flutter-imagen-container{
+  display: flex;
+  align-items: center;
+}
+
+.header{
+  height: 90px;
+  display: flex;
+  background-color: #1b2127;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+ol, ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+figure{
+  margin: 0;
+}
+
+.header a{
+  color: white;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.header ol{
+  display: flex;
+}
+
+.portfolio{
+  background-color: #fafafa;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+h2{
+  color: #026fff;
+  text-transform: uppercase;
+  height: 30px;
+  
+}
+
+.footer{
+  display: flex;
+  color: white;
+  background-color: #1b2127;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer span{
+  color: #77FF00;
+}
+
+.project-flutter{
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.event-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.event{
+  border: 1px solid gray;
+  margin: 10px;
+  width: 480px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background-color: #f4fbff;
+}
+
+.event img{
+  width: 480px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.event-detail{
+  margin:20px 40px;
+  margin-top: -40px;
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  text-align: center;
+}
+
+.event-description{
+  text-align: left;
+}
+
+.contact h3 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.contact form{
+  padding: 20px;
+}
+
+.contact{
+  background-color: #77FF00;
+  color: gray;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wraper{
+  display: flex;
+  width: 1000px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: inherit;
+}
